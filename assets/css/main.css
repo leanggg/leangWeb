@@ -509,7 +509,7 @@ section,
 
 .hero:before {
   content: "";
-  background: color-mix(in srgb, var(--background-color), transparent 60%);
+  background: color-mix(in srgb, var(--background-color), transparent 80%);
   position: absolute;
   inset: 0;
   z-index: 2;
@@ -736,7 +736,7 @@ section,
 # Portfolio Section
 --------------------------------------------------------------*/
 .portfolio {
-  --background-color: color-mix(in srgb, var(--accent-color), transparent 95%);
+  --background-color: color-mix(in srgb, var(--accent-color), transparent 91%);
 }
 
 .portfolio .portfolio-filters {
@@ -785,6 +785,7 @@ section,
 }
 
 .portfolio .portfolio-content img {
+  box-shadow: #000000;
   transition: 0.3s;
 }
 
